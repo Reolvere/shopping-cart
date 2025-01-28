@@ -1,0 +1,129 @@
+.navBar{
+    background-color: #a2d2ff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+
+.linkStyle{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.imgStyle{
+    height: 300px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.productContainer{
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 100px;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    justify-items: center;
+}
+
+.itemContainer{
+    width: 300px;
+    max-height: 700px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.counterContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.incrementalDecrementalBtn{
+    background-color: white;
+    cursor: pointer;
+    min-height: 25px;
+    min-width: 35px;
+    border-radius: 10px;
+    border-color: #bde0fe;
+    font-style: bold;
+}
+
+.incrementalDecrementalBtn:hover{
+    background-color: #a2d2ff;
+    color: white;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBtn{
+    margin-top: 20px;
+    background-color: white;
+    font-style: bold;
+    border-color: #a2d2ff;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: bold;
+}
+.addBtn:hover{
+    background-color: #a2d2ff;
+    color: white;
+}
+
+@media (max-width: 500px) {
+
+    .productContainer{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .navBar{
+        background-color: #a2d2ff;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: white;
+    }
+
+}

@@ -1,0 +1,151 @@
+.ShoppingCartContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.noItems{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar{
+    background-color: #a2d2ff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+
+.linkStyle{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px;
+    position: relative;
+}
+
+.productImage{
+    height: 150px;
+    width: 150px;
+}
+
+.buyContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.removeBtn{
+    cursor: pointer;
+    border: none;
+    background-color: #c1121f;
+    color: white;
+    position: absolute;
+    right: 0px;
+}
+
+.totalPrice{
+    position: absolute;
+    right: 40px;
+}
+
+.productQuantity{
+    position: absolute;
+    right: 150px;
+}
+
+.buyBtn{
+    height: 40px;
+    width: 60px;
+    background-color: #c1121f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+
+    .itemContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    .navBar{
+        background-color: #a2d2ff;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: white;
+    }
+
+    .totalPrice{
+        position: static; 
+        right: auto; 
+        bottom: auto; 
+    }
+    
+    .productQuantity{
+        position: static; 
+        right: auto; 
+        bottom: auto; 
+    }
+
+    .removeBtn{
+        cursor: pointer;
+        border: none;
+        background-color: #c1121f;
+        color: white;
+        position: static; 
+        right: auto; 
+        bottom: auto; 
+    }
+
+    .buyContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .productContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px;
+        max-width: 900px;
+    }
+
+}
