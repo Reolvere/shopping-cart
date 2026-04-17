@@ -7,17 +7,20 @@ https://shopping-cart-ten-dusky.vercel.app/
 A lightweight e-commerce web application built to simulate a modern online shopping experience. This project demonstrates core front-end development skills including UI rendering, state management, and responsive design.
 
 🚀 Features
+
 🛍️ Product listing page
 🔍 Product details view
 🛒 Add to cart functionality
 📦 Cart management (update/remove items)
 💻 Responsive UI for desktop and mobile
 ⚡ Fast performance using Vite
+
 🧱 Tech Stack
 Frontend: HTML, CSS, JavaScript
 Build Tool: Vite
 Linting: ESLint
 Deployment: Vercel
+
 📁 Project Structure
 ├── public/           # Static assets
 ├── src/              # Main application source code
